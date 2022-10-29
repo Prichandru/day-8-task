@@ -1,0 +1,451 @@
+1.Fix the bugs in below snippet
+<html lang="en">
+<head>
+    <title>Document
+        <body>
+            guvi
+    </title>
+</head>
+<div>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+    <div>
+        <div>
+            Guvi Geek Network
+        </div>
+    </body>
+</html>
+
+SOLUTION:
+
+Output:
+
+<html lang="en">
+    <head>
+        <title>Document</title>
+    </head>
+    <body>
+        guvi
+      <div>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+      </div>
+      <div>
+        Guvi Geek Network
+      </div>
+    
+    </body>
+</html>
+
+2.Try the below one
+<html lang="en">
+<head>
+    <title>Document
+        <body>
+            guvi
+</head>
+<div>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+    <div>
+        <div>
+            Guvi Geek Network
+        </div>
+    </body>
+</html>
+
+Output:
+
+<html lang="en">
+    <head>
+        <title>Document</title>    
+    </head>
+    <body>
+        guvi
+        <div>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        </div>
+        <div>
+            Guvi Geek Network
+        </div>
+    </body>
+</html>
+
+3.Design a contact us form with all fields as required.   
+
+SOLUTION:
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact us form</title>
+</head>
+<body>
+    <h1><center> <strong> Contact Us</strong></center></h1>
+    <!-- using form tag to create form elements -->
+    <form action="#" id="Contact Us">  
+    <!-- using input elements to create fields in the contact us form -->
+       Name*: <input type="text"><br><br>
+       Phone Number:<input type="text"><br><br>
+       Email*:<input type="email"><br><br>
+       Comments*:<br>
+       <textarea id="comment" cols="10" rows="10"></textarea><br>
+       * required fields<br><br><button>Submit</button>
+
+    </form>
+    
+</body>
+</html>
+
+output:
+
+screenshot attached
+
+
+4.Use certain HTML elements to display the following in a HTML page.(bulleted list)
+
+Programming Language
+    JavaScript
+        Angular
+        React
+        Vue.js
+    Python
+        Django Framework
+        Flask Framework
+    Java
+        Spring
+        Maven
+        Hibernate
+Database
+    MySQL
+    MongoDB
+    Cansandra
+
+solution
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>displaying ordred and unordered list</title>
+</head>
+<body>
+    <!-- using ordered list and unordered list tag to create the given nested list -->
+    <ul>
+        <li>Programming Language</li>
+        <ul>
+        <li>JavaScript</li>
+        <ol type="a">
+            <li>Angular</li>
+            <li>React</li>
+            <li>Vue.js</li>
+
+        </ol>
+        <li>Python</li>
+        <ol type="a">
+            <li>Django Framework</li>
+            <li>Flask Framework</li>
+        </ol>
+        <li>Java</li>
+        <ol type="a">
+            <li>spring</li>
+            <li>Maven</li>
+            <li>Hibernate</li>
+        </ol>
+    </ul>
+</ul>
+    <ul>
+        <li>Database</li>
+        <ul>
+            <li>MySql</li>
+            <li>MongoDB</li>
+            <li>cansandra</li>
+        </ul>
+    </ul>
+</body>
+</html>
+
+output:
+
+screenshot attached
+
+5.Create an element that helps you to open the https://google.com in separate new tab
+
+SOLUTION:
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>open link in a new tab</title>
+</head>
+<body>
+<!-- using anchor tag to open the given link in new tab -->
+    <a href="https://google.com/" target="_blank">Welcome to google</a>
+</body>
+</html>
+
+output:
+
+Two screenshots attached
+
+6.In the form, add two radio buttons with grouping them for employee type(Salaried and own business)
+
+solution:
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>radio button</title>
+</head>
+<body>
+    <h1><center>Employee Details</center></h1>
+    <Form>
+    <!-- using input element of type radio to create radio buttons -->
+         Name:<input type="text"><br><br>
+         Age:<input type="number"><br><br>
+         Employee type:<input type="radio" name="type">Salaried
+         <input type="radio" name="type">Own business<br><br><br>
+         <button>Submit</button>
+
+    </Form>
+</body>
+</html>
+
+output
+
+screenshot attached
+
+7.Design form shown in the link (http://evc-cit.info/cit040/formguide/card_0.png)
+
+solution
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <!-- Giving styles required for the given form -->
+    <style>
+        #form{
+            border: 2px solid black;
+            margin:200px;
+            padding:10px;
+        }
+h1
+{
+
+    border: 2 px;
+    background:red;
+    text-align: center;
+}
+    </style>
+
+</head>
+<body>
+    <section id="form">
+    <h1 >Yes!I Want to subscribe to Mag-o-zine</h1>
+    <form id="name">
+    <!-- using the required input elements to display the fields in the form -->
+       First Name <input type="text" value="Joe">&nbsp;&nbsp;
+        Last Name  <input type="text" value="shenggai"><br><br>
+        Address  <input type="text" value="1001 washington street"><br><br>
+        City  <input type="text" value="Amsterdam">&nbsp;&nbsp;
+        State  <input type="text" value="CA">&nbsp;&nbsp;
+        Zip  <input type="text" value="9999"><br><br>
+        Subscribe For:  <input type="checkbox">1 year($19.95)&nbsp&nbsp
+        <input type="checkbox">2 years($35.00)<br><br>
+Send me more information about:<br><br>
+<input type="checkbox">Computer zine<br>
+<input type="checkbox">Fishing zine<br>
+<input type="checkbox">Cat-o-zine
+    </form>
+</section>
+    
+</body>
+</html>
+
+output:
+
+screenshot attached
+
+8.Use the table tag to design given image Click here.
+
+solution
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+</head>
+<body>
+    <h1><center>Health Chart</center></h1>
+    <!-- using the table tag to create the required table -->
+    <table border="1px" align="center">
+        <tr>
+            <td rowspan="2">State of Health</td>
+            <td colspan="2" align="center">Fasting Value</td>
+            <td align="center">After Eating</td>
+        </tr>
+        <tr>
+            <td>Minimum</td>
+            <td>Maximum</td>
+            <td>2 Hours After Eating</td>
+        </tr>
+        <tr>
+            <td>Healthy</td>
+            <td>70</td>
+            <td>100</td>
+            <td>Less than 140</td>
+        </tr>
+        <tr>
+            <td>Pre-Diabetes</td>
+            <td>101</td>
+            <td>126</td>
+            <td>140 to 200</td>
+        </tr>
+        <tr>
+            <td>Diabetes</td>
+            <td>More Than 126</td>
+            <td>N/A</td>
+            <td>More Than 200</td>
+        </tr>
+    </table>
+</body>
+</html>
+
+output
+
+screenshot attached
+
+9.Write HTML input tags snippet to show default values for all Form elements
+
+solution
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>default values for form element</title>
+</head>
+<body>
+    <form><h1><center>Employee Details</center></h1>
+    <!-- using input elements and showing default values in the form fields -->
+        Name:<input type="text"  value="John"><br><br>
+        ID Number:<input type="number" value="1006"><br><br>
+        Phone Number:<input type="tel" value="+91 7587523451"><br><br>
+        Dob:<input type="date" value="1980-01-01"><br><br>
+        Email:<input type="email" value="john@gmail.com"><br><br>
+        Password:<input type="password" value="**********"><br><br>
+        Location:<input type="search" value="search for your Location"><br><br>
+        Job Title:<input type="radio" name="title" value="general">General worker
+        <input type="radio" name="title" value="warehouse">Warehouse Worker
+        <input type="radio" name="title" value="Fabricator">Fabricator<br><br>
+        Secondary Job Titles<input type="checkbox" name="shift1" value="Store keeper">Store Keeper
+        <input type="checkbox" name="shift2" value="Floor Keeper">Floor keeper
+        <input type="checkbox" name="shift2" value="warehouse keeper">Warehouse keeper<br><br>
+        Joining Date & Time:<input type="datetime-local" value="2000-01-01T09:00"><br><br>  
+        Uniform color:<input type="color" value="#0000FF"><br><br>
+        Working Hrs:<input type="time" value="08:00"><br><br>
+        In-time<input type="time" value="09:00"><br><br>
+       Upload your profile:<input type="file" value="https://google.com">
+        <input type="reset" value="Reset">
+        <input type="button" value="Update">
+        <input type="submit" value="Submit">
+        </form>
+    
+</body>
+</html>
+
+output
+screenshot attached
+
+
+10.In your, HTML page add the below line and Highlight it without using any CSS.
+"HTML & CSS is awesome"
+
+solution
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>highlight</title>
+</head>
+<body>
+    <ul>
+    <!-- using the mark tag to highlight the text -->
+        <li><mark>"HTML & CSS is awesome"</mark></li>
+    </ul>
+    
+</body>
+</html>
+
+output 
+
+screenshot attached
+
+11.Create an HTML page, which should contain all types of input elements.
+
+solution
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Input elements</title>
+</head>
+<body>
+    <h1><center>Displaying All Types of Input Element </center></h1>
+    <input type="hidden" value="10009">
+    Enter your Name:<input type="text"><br><br>
+    Enter your Phone Number:<input type="tel"><br><br>
+    Enter your Email:<input type="email"><br><br>
+    Gender<input type="radio" value="name">Male
+    <input type="radio" value="name">Female
+    <input type="radio" value="name">Other<br><br>
+    Enter your Password:<input type="password"><br><br>
+    Enter Your Date Of Birth:<input type="date"><br><br>
+    Enter your Age:<input type="number"><br><br>
+    Enter Profile URL:<input type="url"><br><br>
+    Select Favourite color: <input type="color" value="#00ffff"><br><br>
+    Select Interested Berth:<input type="checkbox">Lower Berth
+    <input type="checkbox">Middle Berth
+    <input type="checkbox">Upper Birth<br><br>
+    Enter Your Date And Time of Journey<input type="datetime-local" value="2022-08-20T08:00"><br><br>  
+    Enter month of journey:<input type="month" value="2020-08"><br><br>
+    Choose week of journey:<input type="week" value="2020-W43"><br><br>
+    Enter Time of Journey<input type="time" value="09:00"><br><br>
+     Enter your Ticket Budget:<input type="range" min="500" max="2000"><br><br>
+    Search Your Location:<input type="search"><br><br>
+    Upload Your Document<input type="file"><br><br>
+    <input type="reset" value="reset">
+    <input type="button" value="Update"><br>
+    <input type="image" src="./submit-button-png-4.jpg" alt="no image"Value="Update">
+</body>
+</html>
+
+output
+
+screenshot attached
+
+
+
+
